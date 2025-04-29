@@ -14,7 +14,6 @@ function scrollFunction() {
   }
 }
 function scrollToTop() {
-  buttonTop.classList.remove("show");
   window.scrollTo({
     top: 0,
     behavior: "smooth",

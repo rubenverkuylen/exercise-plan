@@ -128,9 +128,13 @@ h1 {
   font-size: 1.5rem;
   color: var(--color-main);
   position: sticky;
-  top: 0rem;
+  top: 0.5rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
   backdrop-filter: blur(10px);
   font-weight: 900;
+  border: 1px solid;
+  border-radius: 0.25rem;
 }
 
 nav {
@@ -147,12 +151,14 @@ button.show {
 }
 
 button {
-  background: var(--color-main);
-  color: white;
+  background: none;
+  color: var(--color-main);
+  backdrop-filter: blur(4px);
+  border: 1px solid;
   border-radius: 0.25rem;
-  border: none;
-  padding: 0.5rem 1rem;
   margin: 0 auto;
+  font-size: 1.5rem;
+  padding: 0.25rem 0.5rem;
   animation: slide 0.5s;
   cursor: pointer;
   transform: translateY(100px);
