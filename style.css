@@ -1,4 +1,5 @@
 /* reset/normalizer by https://piccalil.li/blog/a-modern-css-reset/ */
+@import "fonts.css";
 
 /* Box sizing rules */
 *,
@@ -87,7 +88,8 @@ li {
 }
 
 html {
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Sligoil", Georgia, monospace;
 }
 
 .main-container {
